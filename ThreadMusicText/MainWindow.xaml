@@ -1,0 +1,18 @@
+﻿<Window x:Class="ThreadMusicText.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThreadMusicText"
+        mc:Ignorable="d"
+        Title="Главное окно" Height="450" Width="800" Loaded="Window_Loaded" Closed="Window_Closed">
+    <Grid>
+        <Label Content="Введите текст:" HorizontalAlignment="Left" Margin="61,100,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox Name="textInput" AcceptsReturn="True" AcceptsTab="True" HorizontalAlignment="Left" Height="148" Margin="217,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="488" FontSize="18">
+        Цель творчества — самоотдача,
+        А не шумиха, не успех.
+        Позорно, ничего не знача,
+        Быть притчей на устах у всех.</TextBox>
+        <Button Name="btnExit" Content="Закрыть программу" HorizontalAlignment="Left" Margin="307,317,0,0" VerticalAlignment="Top" Width="184" FontSize="16" Click="btnExit_Click"/>
+    </Grid>
+</Window>
